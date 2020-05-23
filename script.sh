@@ -8,8 +8,8 @@ apt-get install cowsay -y
 
 
 echo Exterminate! | cowsay -f dalek
-wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
-wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/examples.md
+wget -P /usr/share/cowsay/cows. https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
+wget -P /usr/share/cowsay/cows. https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/examples.md
 
 echo -e ""
 apt-get install lolcat -y

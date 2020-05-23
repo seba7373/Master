@@ -3,6 +3,7 @@ apt-get install lsof
 apt-get install sudo
 echo - e "&lt;span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"&gt;&lt;/span&gt;root ALL=(ALL) ALL" >> /etc/sudoers
 apt-get install figlet -y
+apt-get install fortune -y
 apt-get install cowsay -y
 echo -e ""
 apt-get install lolcat -y

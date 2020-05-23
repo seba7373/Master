@@ -9,8 +9,12 @@ apt-get install cowsay -y
 
 echo Exterminate! | cowsay -f dalek
 
-wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/make-examples.sh
-wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
+wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/bart-zombie.cow
+
+wget -P /usr/share/cowsay https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/.cowrc
+
+wget -P /usr/share/cowsay https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/make-examples.sh
+wget -P /usr/share/cowsay https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
 
 
 echo -e ""

@@ -5,6 +5,10 @@ echo - e "&lt;span data-mce-type="bookmark" style="display: inline-block; width:
 apt-get install figlet -y
 apt-get install fortune -y
 apt-get install cowsay -y
+
+wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
+wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/examples.md
+
 echo -e ""
 apt-get install lolcat -y
 cd $HOME
@@ -59,8 +63,7 @@ inst_components () {
 funcao_idioma () {
  echo -e " "
 msg -bar2
-wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
-wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/examples.md
+
 cowsay -f bart "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
 figlet ..msshacks.. | lolcat
  echo -e " "

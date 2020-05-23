@@ -66,7 +66,7 @@ funcao_idioma () {
  echo -e " "
 msg -bar2
 
-echo bart! | cowsay -f bart "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
+echo R2-D2! | cowsay -f R2-D2 "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
 figlet ..msshacks.. | lolcat
  echo -e " "
 msg -bar2

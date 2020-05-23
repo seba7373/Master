@@ -6,6 +6,8 @@ apt-get install figlet -y
 apt-get install fortune -y
 apt-get install cowsay -y
 
+
+echo Exterminate! | cowsay -f dalek
 wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
 wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/examples.md
 

@@ -58,6 +58,7 @@ inst_components () {
 funcao_idioma () {
  echo -e " "
 msg -bar2
+wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/bart.cow
 cowsay -f bart "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
 figlet ..msshacks.. | lolcat
  echo -e " "

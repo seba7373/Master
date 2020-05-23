@@ -59,6 +59,7 @@ inst_components () {
 funcao_idioma () {
  echo -e " "
 msg -bar2
+wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
 wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/examples.md
 cowsay -f bart "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
 figlet ..msshacks.. | lolcat

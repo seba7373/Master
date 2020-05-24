@@ -9,7 +9,7 @@ apt-get install cowsay -y
 
 echo Exterminate! | cowsay -f dalek
 
-wget -P /usr/share/cowsay/cows https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/bart-zombie.cow
+wget -P /usr/share/cowsay/cows https://github.com/paulkaefer/cowsay-files/tree/master/cows
 
 wget -P /usr/share/cowsay https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/.cowrc
 

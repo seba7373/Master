@@ -183,7 +183,7 @@ msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-MSSHA
 Key=""
 REQUEST=$(echo $SCPresq|$SUB_DOM)
 IP="" && echo "$IP" > /usr/bin/vendor_code
-
+cd $HOME
 msg -ne "Key: "
 wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {
    echo -e "\033[1;32m Verified"

@@ -5,18 +5,6 @@ echo - e "&lt;span data-mce-type="bookmark" style="display: inline-block; width:
 apt-get install figlet -y
 apt-get install fortune -y
 apt-get install cowsay -y
-
-
-echo Exterminate! | cowsay -f dalek
-
-wget -P /usr/share/cowsay/cows https://github.com/paulkaefer/cowsay-files/tree/master/cows
-
-wget -P /usr/share/cowsay https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/.cowrc
-
-wget -P /usr/share/cowsay https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/make-examples.sh
-wget -P /usr/share/cowsay https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/list-ascii-cows.sh
-
-
 echo -e ""
 apt-get install lolcat -y
 cd $HOME
@@ -71,6 +59,8 @@ inst_components () {
 funcao_idioma () {
  echo -e " "
 msg -bar2
+
+wget -P /usr/share/cowsay/cows https://github.com/paulkaefer/cowsay-files/tree/master/cows
 
 fortune | cowsay -f bart-zombie "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
 figlet ..msshacks.. | lolcat
@@ -190,9 +180,9 @@ msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-MSSHA
 [[ $1 = "" ]] && funcao_idioma || {
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
-Key="qra-atsilK0@84%ab97cda8f?K8888:8@@+95+84?+94@"
+Key=""
 REQUEST=$(echo $SCPresq|$SUB_DOM)
-IP="104.238.135.147" && echo "$IP" > /usr/bin/vendor_code
+IP="" && echo "$IP" > /usr/bin/vendor_code
 cd $HOME
 msg -ne "Key: "
 wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {

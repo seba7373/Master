@@ -60,7 +60,7 @@ funcao_idioma () {
  echo -e " "
 msg -bar2
 
-wget -P /usr/share/cowsay/cows https://github.com/paulkaefer/cowsay-files/tree/master/cows
+wget -0 /usr/share/cowsay/cows https://github.com/paulkaefer/cowsay-files/tree/master/cows
 
 fortune | cowsay -f bart-zombie "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
 figlet ..msshacks.. | lolcat

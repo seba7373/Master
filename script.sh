@@ -8,7 +8,7 @@ apt-get install cowsay -y
 echo -e ""
 apt-get install lolcat -y
 cd $HOME
-SCPresq=""
+SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RhbmtlbHRoYWhlck1hbmFnZXIvQURNLU1BTkFHRVItREFOS0VMVEhBSEVSL21hc3Rlci9yZXF1ZXN0"
 SCPdir="/etc/newadm"
 SCPinstal="$HOME/install"
 SCPidioma="${SCPdir}/idioma"
@@ -60,10 +60,7 @@ inst_components () {
 funcao_idioma () {
  echo -e " "
 msg -bar2
-
-wget -0 /usr/share/cowsay/cows https://github.com/paulkaefer/cowsay-files/tree/master/cows
-
-fortune | cowsay -f bart-zombie "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
+cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
 figlet ..msshacks.. | lolcat
  echo -e " "
 msg -bar2

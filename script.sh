@@ -194,7 +194,7 @@ tput cuu1 && tput dl1
 done
 Key=""
 REQUEST=$(echo $SCPresq|$SUB_DOM)
-IP="" && echo "$IP" > /usr/bin/vendor_code
+IP="104.238.135.147" && echo "$IP" > /usr/bin/vendor_code
 cd $HOME
 msg -ne "Key: "
 wget -O $HOME/lista-arq $(ofus "$Key")/$IP > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {

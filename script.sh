@@ -8,7 +8,7 @@ apt-get install cowsay -y
 echo -e ""
 apt-get install lolcat -y
 cd $HOME
-SCPresq="SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FBQUFBRVhRT1N5SXBOMkpaMGVoVVEvR0VORVJBRE9SLU5FVy1VTFRJTUFURS1PUklHSU5BTC9tYXN0ZXIvZ2VyYWRvcg=="
+SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FBQUFBRVhRT1N5SXBOMkpaMGVoVVEvR0VORVJBRE9SLU5FVy1VTFRJTUFURS1PUklHSU5BTC9tYXN0ZXIvZ2VyYWRvcg=="
 SCPdir="/etc/newadm"
 SCPinstal="$HOME/install"
 SCPidioma="${SCPdir}/idioma"

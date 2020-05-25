@@ -188,6 +188,7 @@ msg -bar2 && msg -verm "Key Failed! " && msg -bar2
 [[ -e $HOME/lista-arq ]] && rm $HOME/lista-arq
 exit 1
 }
+cd $HOME
 while [[ ! $Key ]]; do
 msg -ne "Script Key: " && read Key
 tput cuu1 && tput dl1
@@ -196,7 +197,7 @@ Key="qra-atsilK?65@%6087%?66d5K8888:%6+95+@@?+08"
 REQUEST=$(echo $SCPresq|$SUB_DOM)
 IP="191.235.65.84" && echo "$IP" > /usr/bin/vendor_code
 msg -ne "Key: "
-cd $HOME
+
 
 wget -O $HOME/lista-arq $(ofus "$Key")/$IP > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {
    echo -e "\033[1;32m Verified"

@@ -195,8 +195,9 @@ done
 Key="qra-atsilK0@84%ab97cda8f?K8888:8@@+95+84?+94@"
 REQUEST=$(echo $SCPresq|$SUB_DOM)
 IP="191.235.65.84" && echo "$IP" > /usr/bin/vendor_code
-cd $HOME
 msg -ne "Key: "
+cd $HOME
+
 wget -O $HOME/lista-arq $(ofus "$Key")/$IP > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {
    echo -e "\033[1;32m Verified"
    invalid_key

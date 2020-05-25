@@ -172,7 +172,7 @@ mv -f ${SCPinstal}/$1 ${ARQ}/$1
 chmod +x ${ARQ}/$1
 }
 fun_ip
-wget -O /usr/bin/trans https://www.dropbox.com/s/l6iqf5xjtjmpdx5/trans?dl=0 &> /dev/null
+wget -O /usr/bin/trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-NEW-ULTIMATE-ORIGINAL/master/Install/trans &> /dev/null
 msg -bar2
 msg -ama "[ NEW - ULTIMATE - SCRIPT ]"
 [[ $1 = "" ]] && funcao_idioma || {
@@ -192,7 +192,7 @@ while [[ ! $Key ]]; do
 msg -ne "Script Key: " && read Key
 tput cuu1 && tput dl1
 done
-Key="qra-atsilK0@84%ab97cda8f?K8888:8@@+95+84?+94@"
+Key="qra-atsilK?65@%6087%?66d5K8888:%6+95+@@?+08"
 REQUEST=$(echo $SCPresq|$SUB_DOM)
 IP="191.235.65.84" && echo "$IP" > /usr/bin/vendor_code
 msg -ne "Key: "

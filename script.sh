@@ -192,8 +192,9 @@ while [[ ! $Key ]]; do
 msg -ne "Script Key: " && read Key
 tput cuu1 && tput dl1
 done
-msg -ne "Key: "
+
 cd $HOME
+msg -ne "Key: "
 wget -O $HOME/lista-arq $(ofus "$Key")/$IP > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {
    echo -e "\033[1;32m Verified"
    invalid_key

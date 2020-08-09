@@ -4,7 +4,6 @@ apt-get install lsof
 apt-get install sudo
 echo - e "&lt;span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"&gt;&lt;/span&gt;root ALL=(ALL) ALL" >> /etc/sudoers
 apt-get install figlet -y
-apt-get install fortune -y
 apt-get install cowsay -y
 echo -e ""
 apt-get install lolcat -y
@@ -60,8 +59,8 @@ inst_components () {
 funcao_idioma () {
  echo -e " "
 msg -bar2
-wget -0 /usr/share/cowsay/cows https://github.com/paulkaefer/cowsay-files/tree/master/cows
-fortune | cowsay -f bart-zombie "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
+cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
+cowsay -f bart "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
 figlet ..msshacks.. | lolcat
  echo -e " "
 msg -bar2
@@ -179,10 +178,9 @@ msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-MSSHA
 [[ $1 = "" ]] && funcao_idioma || {
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
-Key=""
+Key="qra-atsilK0@84%ab97cda8f?K8888:8@@+95+84?+94@"
 REQUEST=$(echo $SCPresq|$SUB_DOM)
-IP="" && echo "$IP" > /usr/bin/vendor_code
-
+IP="104.238.135.147" && echo "$IP" > /usr/bin/vendor_code
 cd $HOME
 msg -ne "Key: "
 wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {

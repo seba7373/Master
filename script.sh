@@ -1,8 +1,10 @@
+
 #!/bin/bash
 apt-get install lsof
 apt-get install sudo
 echo - e "&lt;span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"&gt;&lt;/span&gt;root ALL=(ALL) ALL" >> /etc/sudoers
 apt-get install figlet -y
+apt-get install fortune -y
 apt-get install cowsay -y
 echo -e ""
 apt-get install lolcat -y
@@ -58,8 +60,9 @@ inst_components () {
 funcao_idioma () {
  echo -e " "
 msg -bar2
-cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHACKS" | lolcat
-figlet ..MSSHACKS.. | lolcat
+wget -0 /usr/share/cowsay/cows https://github.com/paulkaefer/cowsay-files/tree/master/cows
+fortune | cowsay -f bart-zombie "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY MSSHacks" | lolcat
+figlet ..msshacks.. | lolcat
  echo -e " "
 msg -bar2
 echo -e "\e[1;33mSelecione Un Idioma\e[0m"
@@ -172,20 +175,19 @@ chmod +x ${ARQ}/$1
 fun_ip
 wget -O /usr/bin/trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/Install/trans &> /dev/null
 msg -bar2
-msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-DANKELTHAHER \033[1;33m]"
+msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-MSSHACKS \033[1;33m]"
 [[ $1 = "" ]] && funcao_idioma || {
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
-Key="qra-atsilK0@84%ab97cda8f?K8888:8@@+95+84?+94@"
+Key=""
 REQUEST=$(echo $SCPresq|$SUB_DOM)
-IP="104.238.135.147" && echo "$IP" > /usr/bin/vendor_code
+IP="" && echo "$IP" > /usr/bin/vendor_code
+
 cd $HOME
 msg -ne "Key: "
-
 wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {
    echo -e "\033[1;32m Verified"
    invalid_key
-
    exit
    }
 sleep 1s
